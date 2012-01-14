@@ -14,6 +14,7 @@ build/
 *.mode2v3
 
 xcuserdata
+project.xcworkspace/
 
 
 
