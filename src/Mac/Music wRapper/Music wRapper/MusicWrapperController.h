@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <WebKit/WebKit.h>
 
 
-@interface MusicWrapperController : MusicWrapperController {
-@private
+@interface MusicWrapperController : NSObject {
+
+    IBOutlet WebView *webView;
     
 }
 

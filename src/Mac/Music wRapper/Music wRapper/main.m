@@ -10,5 +10,8 @@
 
 int main(int argc, char *argv[])
 {
+    //uncomment these to enable web inspector
+    //[[NSUserDefaults standardUserDefaults] setBool:TRUE forKey:@"WebKitDeveloperExtras"];
+    //[[NSUserDefaults standardUserDefaults] synchronize];
     return NSApplicationMain(argc, (const char **)argv);
 }

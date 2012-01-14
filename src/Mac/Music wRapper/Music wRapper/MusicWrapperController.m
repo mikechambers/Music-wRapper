@@ -21,6 +21,14 @@
     return self;
 }
 
+-(void)awakeFromNib
+{
+    //we have to do this, or the page wont render correctly
+    [webView setCustomUserAgent:@"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.52.7 (KHTML, like Gecko) Version/5.1.2 Safari/534.52.7"];
+    [[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.amazon.com/gp/dmusic/mp3/player"]]];
+
+}
+
 - (void)dealloc
 {
     [super dealloc];

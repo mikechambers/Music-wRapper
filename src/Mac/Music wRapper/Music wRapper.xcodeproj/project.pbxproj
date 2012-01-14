@@ -13,6 +13,8 @@
 		478B377E14C21A0C00B8E37D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 478B377C14C21A0C00B8E37D /* Credits.rtf */; };
 		478B378114C21A0C00B8E37D /* Music_wRapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B378014C21A0C00B8E37D /* Music_wRapperAppDelegate.m */; };
 		478B378414C21A0C00B8E37D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478B378214C21A0C00B8E37D /* MainMenu.xib */; };
+		478B378B14C21A1900B8E37D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478B378A14C21A1900B8E37D /* WebKit.framework */; };
+		478B378E14C21D8700B8E37D /* MusicWrapperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B378D14C21D8700B8E37D /* MusicWrapperController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		478B377014C21A0C00B8E37D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		478B377114C21A0C00B8E37D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		478B377214C21A0C00B8E37D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		478B377514C21A0C00B8E37D /* Music wRapper-Info.plist */ = {isa = PBXFileReference; path = "Music wRapper-Info.plist"; sourceTree = "<group>"; };
+		478B377514C21A0C00B8E37D /* Music wRapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Music wRapper-Info.plist"; sourceTree = "<group>"; };
 		478B377714C21A0C00B8E37D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		478B377914C21A0C00B8E37D /* Music wRapper-Prefix.pch */ = {isa = PBXFileReference; path = "Music wRapper-Prefix.pch"; sourceTree = "<group>"; };
+		478B377914C21A0C00B8E37D /* Music wRapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Music wRapper-Prefix.pch"; sourceTree = "<group>"; };
 		478B377A14C21A0C00B8E37D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		478B377D14C21A0C00B8E37D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		478B377F14C21A0C00B8E37D /* Music_wRapperAppDelegate.h */ = {isa = PBXFileReference; path = Music_wRapperAppDelegate.h; sourceTree = "<group>"; };
+		478B377F14C21A0C00B8E37D /* Music_wRapperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Music_wRapperAppDelegate.h; sourceTree = "<group>"; };
 		478B378014C21A0C00B8E37D /* Music_wRapperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Music_wRapperAppDelegate.m; sourceTree = "<group>"; };
 		478B378314C21A0C00B8E37D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		478B378A14C21A1900B8E37D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		478B378C14C21D8700B8E37D /* MusicWrapperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicWrapperController.h; sourceTree = "<group>"; };
+		478B378D14C21D8700B8E37D /* MusicWrapperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicWrapperController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478B378B14C21A1900B8E37D /* WebKit.framework in Frameworks */,
 				478B376E14C21A0C00B8E37D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +69,7 @@
 		478B376C14C21A0C00B8E37D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				478B378A14C21A1900B8E37D /* WebKit.framework */,
 				478B376D14C21A0C00B8E37D /* Cocoa.framework */,
 				478B376F14C21A0C00B8E37D /* Other Frameworks */,
 			);
@@ -85,6 +92,8 @@
 				478B377F14C21A0C00B8E37D /* Music_wRapperAppDelegate.h */,
 				478B378014C21A0C00B8E37D /* Music_wRapperAppDelegate.m */,
 				478B378214C21A0C00B8E37D /* MainMenu.xib */,
+				478B378C14C21D8700B8E37D /* MusicWrapperController.h */,
+				478B378D14C21D8700B8E37D /* MusicWrapperController.m */,
 				478B377414C21A0C00B8E37D /* Supporting Files */,
 			);
 			path = "Music wRapper";
@@ -167,6 +176,7 @@
 			files = (
 				478B377B14C21A0C00B8E37D /* main.m in Sources */,
 				478B378114C21A0C00B8E37D /* Music_wRapperAppDelegate.m in Sources */,
+				478B378E14C21D8700B8E37D /* MusicWrapperController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +252,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Music wRapper/Music wRapper-Prefix.pch";
 				INFOPLIST_FILE = "Music wRapper/Music wRapper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Music wRapper/Music wRapper-Prefix.pch";
 				INFOPLIST_FILE = "Music wRapper/Music wRapper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +293,7 @@
 				478B378914C21A0C00B8E37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

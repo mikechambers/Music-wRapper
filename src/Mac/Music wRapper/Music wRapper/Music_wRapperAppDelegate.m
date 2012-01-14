@@ -12,9 +12,10 @@
 
 @synthesize window;
 
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+	//[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:@"https://www.amazon.com/gp/dmusic/mp3/player"]]];
 }
 
 @end
