@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478B376E14C21A0C00B8E37D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478B376D14C21A0C00B8E37D /* Cocoa.framework */; };
+		478B377814C21A0C00B8E37D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 478B377614C21A0C00B8E37D /* InfoPlist.strings */; };
+		478B377B14C21A0C00B8E37D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B377A14C21A0C00B8E37D /* main.m */; };
+		478B377E14C21A0C00B8E37D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 478B377C14C21A0C00B8E37D /* Credits.rtf */; };
+		478B378114C21A0C00B8E37D /* Music_wRapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B378014C21A0C00B8E37D /* Music_wRapperAppDelegate.m */; };
+		478B378414C21A0C00B8E37D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478B378214C21A0C00B8E37D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		478B376914C21A0C00B8E37D /* Music wRapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music wRapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B376D14C21A0C00B8E37D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		478B377014C21A0C00B8E37D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		478B377114C21A0C00B8E37D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		478B377214C21A0C00B8E37D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		478B377514C21A0C00B8E37D /* Music wRapper-Info.plist */ = {isa = PBXFileReference; path = "Music wRapper-Info.plist"; sourceTree = "<group>"; };
+		478B377714C21A0C00B8E37D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		478B377914C21A0C00B8E37D /* Music wRapper-Prefix.pch */ = {isa = PBXFileReference; path = "Music wRapper-Prefix.pch"; sourceTree = "<group>"; };
+		478B377A14C21A0C00B8E37D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		478B377D14C21A0C00B8E37D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		478B377F14C21A0C00B8E37D /* Music_wRapperAppDelegate.h */ = {isa = PBXFileReference; path = Music_wRapperAppDelegate.h; sourceTree = "<group>"; };
+		478B378014C21A0C00B8E37D /* Music_wRapperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Music_wRapperAppDelegate.m; sourceTree = "<group>"; };
+		478B378314C21A0C00B8E37D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478B376614C21A0C00B8E37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B376E14C21A0C00B8E37D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478B375E14C21A0C00B8E37D = {
+			isa = PBXGroup;
+			children = (
+				478B377314C21A0C00B8E37D /* Music wRapper */,
+				478B376C14C21A0C00B8E37D /* Frameworks */,
+				478B376A14C21A0C00B8E37D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478B376A14C21A0C00B8E37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478B376914C21A0C00B8E37D /* Music wRapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478B376C14C21A0C00B8E37D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478B376D14C21A0C00B8E37D /* Cocoa.framework */,
+				478B376F14C21A0C00B8E37D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		478B376F14C21A0C00B8E37D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478B377014C21A0C00B8E37D /* AppKit.framework */,
+				478B377114C21A0C00B8E37D /* CoreData.framework */,
+				478B377214C21A0C00B8E37D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		478B377314C21A0C00B8E37D /* Music wRapper */ = {
+			isa = PBXGroup;
+			children = (
+				478B377F14C21A0C00B8E37D /* Music_wRapperAppDelegate.h */,
+				478B378014C21A0C00B8E37D /* Music_wRapperAppDelegate.m */,
+				478B378214C21A0C00B8E37D /* MainMenu.xib */,
+				478B377414C21A0C00B8E37D /* Supporting Files */,
+			);
+			path = "Music wRapper";
+			sourceTree = "<group>";
+		};
+		478B377414C21A0C00B8E37D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				478B377514C21A0C00B8E37D /* Music wRapper-Info.plist */,
+				478B377614C21A0C00B8E37D /* InfoPlist.strings */,
+				478B377914C21A0C00B8E37D /* Music wRapper-Prefix.pch */,
+				478B377A14C21A0C00B8E37D /* main.m */,
+				478B377C14C21A0C00B8E37D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478B376814C21A0C00B8E37D /* Music wRapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478B378714C21A0C00B8E37D /* Build configuration list for PBXNativeTarget "Music wRapper" */;
+			buildPhases = (
+				478B376514C21A0C00B8E37D /* Sources */,
+				478B376614C21A0C00B8E37D /* Frameworks */,
+				478B376714C21A0C00B8E37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music wRapper";
+			productName = "Music wRapper";
+			productReference = 478B376914C21A0C00B8E37D /* Music wRapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478B376014C21A0C00B8E37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = mesh;
+			};
+			buildConfigurationList = 478B376314C21A0C00B8E37D /* Build configuration list for PBXProject "Music wRapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 478B375E14C21A0C00B8E37D;
+			productRefGroup = 478B376A14C21A0C00B8E37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478B376814C21A0C00B8E37D /* Music wRapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478B376714C21A0C00B8E37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B377814C21A0C00B8E37D /* InfoPlist.strings in Resources */,
+				478B377E14C21A0C00B8E37D /* Credits.rtf in Resources */,
+				478B378414C21A0C00B8E37D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478B376514C21A0C00B8E37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B377B14C21A0C00B8E37D /* main.m in Sources */,
+				478B378114C21A0C00B8E37D /* Music_wRapperAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		478B377614C21A0C00B8E37D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B377714C21A0C00B8E37D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		478B377C14C21A0C00B8E37D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B377D14C21A0C00B8E37D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		478B378214C21A0C00B8E37D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B378314C21A0C00B8E37D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478B378514C21A0C00B8E37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		478B378614C21A0C00B8E37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		478B378814C21A0C00B8E37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Music wRapper/Music wRapper-Prefix.pch";
+				INFOPLIST_FILE = "Music wRapper/Music wRapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		478B378914C21A0C00B8E37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Music wRapper/Music wRapper-Prefix.pch";
+				INFOPLIST_FILE = "Music wRapper/Music wRapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478B376314C21A0C00B8E37D /* Build configuration list for PBXProject "Music wRapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B378514C21A0C00B8E37D /* Debug */,
+				478B378614C21A0C00B8E37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478B378714C21A0C00B8E37D /* Build configuration list for PBXNativeTarget "Music wRapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B378814C21A0C00B8E37D /* Debug */,
+				478B378914C21A0C00B8E37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478B376014C21A0C00B8E37D /* Project object */;
+}
