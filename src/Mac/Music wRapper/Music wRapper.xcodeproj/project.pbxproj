@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		474CA1FE14C2910400263A50 /* AmazonMusicWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 474CA1FD14C2910400263A50 /* AmazonMusicWebView.m */; };
 		478B376E14C21A0C00B8E37D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478B376D14C21A0C00B8E37D /* Cocoa.framework */; };
 		478B377814C21A0C00B8E37D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 478B377614C21A0C00B8E37D /* InfoPlist.strings */; };
 		478B377B14C21A0C00B8E37D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B377A14C21A0C00B8E37D /* main.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		474CA1FC14C2910400263A50 /* AmazonMusicWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonMusicWebView.h; sourceTree = "<group>"; };
+		474CA1FD14C2910400263A50 /* AmazonMusicWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonMusicWebView.m; sourceTree = "<group>"; };
 		478B376914C21A0C00B8E37D /* Music wRapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music wRapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		478B376D14C21A0C00B8E37D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		478B377014C21A0C00B8E37D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 				478B378C14C21D8700B8E37D /* MusicWrapperController.h */,
 				478B378D14C21D8700B8E37D /* MusicWrapperController.m */,
 				478B377414C21A0C00B8E37D /* Supporting Files */,
+				474CA1FC14C2910400263A50 /* AmazonMusicWebView.h */,
+				474CA1FD14C2910400263A50 /* AmazonMusicWebView.m */,
 			);
 			path = "Music wRapper";
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				478B377B14C21A0C00B8E37D /* main.m in Sources */,
 				478B378114C21A0C00B8E37D /* Music_wRapperAppDelegate.m in Sources */,
 				478B378E14C21D8700B8E37D /* MusicWrapperController.m in Sources */,
+				474CA1FE14C2910400263A50 /* AmazonMusicWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
